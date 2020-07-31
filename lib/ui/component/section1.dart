@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 import 'package:velocity_x/velocity_x.dart';
 
-import 'block.dart';
-import 'cuver_painter.dart';
+
 import 'section2.dart';
 
 class Section1 extends StatelessWidget {

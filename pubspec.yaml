@@ -31,13 +31,16 @@ dependencies:
   velocity_x: ^0.4.1
   responsive_framework: ^0.0.7
   flare_flutter: ^2.0.5
-  flutter_3d_obj: ^0.0.6
-  model_viewer: ^0.5.0
-  path_drawing: ^0.4.1
+  peanut: ^3.5.1
+  
+ 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  build_runner: ^1.10.1
+  build_web_compilers: ^2.11.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -60,10 +63,7 @@ flutter:
  
 
 
-  #   - images/a_dot_ham.jpeg
-  #   - images/a_dot_ham.jpeg
-  #   - images/a_dot_ham.jpeg
-  #   - images/a_dot_ham.jpeg
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

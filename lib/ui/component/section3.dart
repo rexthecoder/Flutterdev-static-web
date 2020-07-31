@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_3d_obj/flutter_3d_obj.dart';
+
 
 import 'package:responsive_framework/responsive_framework.dart';
 import 'package:velocity_x/velocity_x.dart';
 
-import 'section2.dart';
 
 class Section3 extends StatefulWidget {
   @override
