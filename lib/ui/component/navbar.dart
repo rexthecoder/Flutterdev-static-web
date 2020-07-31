@@ -13,7 +13,7 @@ class NavBar extends StatelessWidget {
         elevation: 0,
         leading: ResponsiveVisibility(
           visible: false,
-          visibleWhen: [Condition.equals(name: MOBILE)],
+          visibleWhen: [Condition.smallerThan(name: DESKTOP)],
           child: Icon(
             Icons.menu,
             color: Vx.blue800,
@@ -63,6 +63,7 @@ class NavBar extends StatelessWidget {
 
   Row navContent() {
     return Row(
+  
       children: [
         "FlutterDeveloper".text.size(20).blue800.tight.bold.italic.make(),
         SizedBox(
@@ -70,7 +71,7 @@ class NavBar extends StatelessWidget {
         ),
         ResponsiveVisibility(
           visible: false,
-          visibleWhen: [Condition.largerThan(name: MOBILE)],
+          visibleWhen: [Condition.equals(name: DESKTOP)],
           child: Row(
             children: [
               "Home".text.semiBold.blue800.size(15).make(),
