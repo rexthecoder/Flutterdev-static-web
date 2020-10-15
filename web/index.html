@@ -21,9 +21,12 @@
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <!-- This is the eb based version of the flutter app --->
   <script>
+    //service worker detected
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
+        
         navigator.serviceWorker.register('flutter_service_worker.js');
       });
     }
